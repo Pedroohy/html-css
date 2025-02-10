@@ -9,40 +9,74 @@
     margin: 0px;
 }
 
+html,body {
+    min-height: 100vh;
+    background-color: #464545;
+}
 header {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
-header > p {
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-size: 77px;
+    font-size: 10wv;
+}
+
+header p {
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+}
 
+header a, footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
 section.normal {
     padding: 74px 0px 74px 30px;
-}
-
-section.imagem {
-    background-position: absolute;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: #ffffff;
 }
-p {
+
+section.normal p {
     font-family: "Sriracha", serif;
     font-size: 26px;
     font-weight: 53px;
     line-height: 53.928px;
 }
 
-h1 {
-    font-family: "Passion One", serif;
-    font-weight: bold;
-    font-size: 77px;
+section.imagem {
+    padding: 74px 0px 74px 30px;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #242424;
+    color: #ffffff;
+}
+
+section.imagem p {
+    font-family: "Sriracha", serif;
+    padding: 5px;
+    background-color: #464545;
+    font-size: 27px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
