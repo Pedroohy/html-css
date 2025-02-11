@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+:root {
+    --font1: "Verdana", Geneva, Tahoma, sans-serif;
+    --font2: "Passion One", serif;
+    --font3: "Sriracha", serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -21,16 +27,16 @@ header {
 
 header h1 {
     padding-top: 50px;
+    font-size: 10vw;
     font-variant: small-caps;
-    font-family: "Passion One", serif;
+    font-family: var(--font2);
     font-weight: 700;
-    font-size: 77px;
-    font-size: 10wv;
+   
 }
 
 header p {
     padding-bottom: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font1);
     font-size: 16px;
 }
 
@@ -43,32 +49,47 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    font-family: var(--font3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
 section.normal {
-    padding: 74px 0px 74px 30px;
     background-color: #ffffff;
+    color: #000000;
 }
 
 section.normal p {
-    font-family: "Sriracha", serif;
-    font-size: 26px;
-    font-weight: 53px;
-    line-height: 53.928px;
+    margin-top: 20px;
 }
 
-section.imagem {
+#img001 {
     padding: 74px 0px 74px 30px;
     background-position: absolute;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+    background-color: #242424;
+    color: #ffffff;
+}
+ 
+#img002 {
+    padding: 74px 0px 74px 30px;
+    background-position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
     background-color: #242424;
     color: #ffffff;
 }
 
 section.imagem p {
-    font-family: "Sriracha", serif;
-    padding: 5px;
-    background-color: #464545;
-    font-size: 27px;
+    display: inline-block;
+    background-color: #0000002d;
 }
 
 footer {
@@ -76,7 +97,7 @@ footer {
     color: #ffffff;
     padding: 10px;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font1);
     text-align: center;
 }
 
