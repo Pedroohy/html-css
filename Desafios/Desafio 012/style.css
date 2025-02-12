@@ -64,12 +64,12 @@ section.normal {
 }
 
 section.normal p {
-    margin-top: 20px;
+    padding-bottom: 2em;
 }
 
 #img001 {
     padding: 74px 0px 74px 30px;
-    background-position: absolute;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     background-image: url(imagens/background001.jpg);
@@ -87,9 +87,16 @@ section.normal p {
     color: #ffffff;
 }
 
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px #00000078;
+}
+
 section.imagem p {
     display: inline-block;
-    background-color: #0000002d;
+    background-color: #0000009d;
+    text-shadow: 1px 1px 0px #000000;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
