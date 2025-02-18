@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: rgba(0, 123, 255, 0.648);
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: rgba(11, 158, 109, 0.542);
+        }
+    </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
@@ -29,7 +52,7 @@
                 C1
             </td>
         </tr>
-        <tr> <!-- SEGUNDA LINHA -->
+        <tr class="linha"> <!-- SEGUNDA LINHA -->
             <td>
                 A2
             </td>
@@ -58,7 +81,7 @@
             <td>
                 B4
             </td>
-            <td>
+            <td class="dado">
                 C4
             </td>
         </tr>
