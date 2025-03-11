@@ -1,0 +1,18 @@
+@charset "UFT-8";
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    width: 400px;
+    text-align: center;
+}
+
+tbody > tr > td {
+    border: 1px solid #000000;
+    padding: 3px;
+}
