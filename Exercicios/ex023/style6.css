@@ -27,3 +27,7 @@ td,th {
 tr:nth-child(even) {
     background-color: #c0c0c0;
 }
+
+div#container {
+    overflow-x: auto;
+}
